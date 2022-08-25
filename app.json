@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "FirstProject",
-    "slug": "FirstProject",
+    "name": "News App",
+    "slug": "news-app",
+    "owner": "bohdan_dev",
+    "description": "Good day",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,22 +14,37 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/f9411cef-62fa-4f15-83e7-18c0c4bc599a"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "runtimeVersion": {
+        "policy": "sdkVersion"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f9411cef-62fa-4f15-83e7-18c0c4bc599a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
